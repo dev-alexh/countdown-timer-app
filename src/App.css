@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+  font-family: "Open Sans", Arial !important;
+  margin: 0;
+  font-size: 0.9em !important;
+  text-align: center !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#sessionBreakBox {
+  padding: 70px 15% 70px 15% !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  margin: 100px 0px 0px 0px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#breakAndSessionTimer {
+  margin: 0px 0px 80px 0px;
+  padding: 50px 0px 50px 0px;
+  border: solid;
+  border-width: thin;
+  border-color: #cccccc;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.iconSize {
+  font-size: 3em !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#break-length {
+  font-size: 3em !important;
+}
+
+#session-length {
+  font-size: 3em !important;
+}
+
+#time-left {
+  font-size: 3em !important;
+}
+
+#break-increment:hover,
+#break-decrement:hover,
+#session-increment:hover,
+#session-decrement:hover,
+#start_stop:hover,
+#reset:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+footer {
+  text-align: right;
+  font-size: 0.8em;
+  border-top: solid;
+  border-top-color: #cccccc;
+  border-top-width: thin;
+  padding: 10px 0px 0px 0px;
+  margin: 70px 0px 0px 0px;
 }
