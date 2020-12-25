@@ -47,7 +47,7 @@ h1 {
 #start_stop:hover,
 #reset:hover {
   cursor: pointer;
-  opacity: 70%;
+  opacity: 70% !important;
 }
 
 footer {
